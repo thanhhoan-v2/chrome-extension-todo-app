@@ -4,7 +4,7 @@
     "noEmit": false,
     "module": "esnext",
     "moduleResolution": "node",
-    "jsx": "react"
+    "jsx": "react-jsx"
   },
   "include": ["extension/**/*", "components/**/*", "lib/**/*"],
   "exclude": ["node_modules", "dist", "app"]
