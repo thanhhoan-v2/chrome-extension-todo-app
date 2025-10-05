@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": ["extension/**/*", "components/**/*", "lib/**/*"],
+  "exclude": ["node_modules", "dist", "app"]
+}
